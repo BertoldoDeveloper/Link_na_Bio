@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+    .imagePerfil {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+
+        img {
+            width: 200px;
+            border-radius: 70%;
+            height: 200px;
+        }
+    }
+
+    .links_bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        margin-top: 15px;
+
+        button {
+            width: 90%;
+            height: 50px;
+            margin-bottom: 5px;
+            border-radius: 7%;
+            border-color: transparent;
+        }
+    }
+}

@@ -79,6 +79,16 @@ body {
             margin-bottom: 5px;
             border-radius: 7%;
             border-color: transparent;
+            cursor: pointer;
+
+            &:hover {
+                width: 93%;
+                height: 53px;
+                background-color: #afafaf;
+                font-size: 1rem;
+                font-weight: bold;
+                transition: 0.3s;
+            }
         }
     }
 }
